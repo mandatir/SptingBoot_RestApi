@@ -29,7 +29,32 @@ Sample json code:{
         "name": "IT"
     }
 }
-
+---------------------------------
+{
+    "id": 2,
+    "name": "raghu",
+    "role": {
+        "id": 2,
+        "name": "pricipal"
+    },
+    "group": {
+        "id": 2,
+        "name": "ECE"
+    }
+}
+-----------------------------------
+{
+    "id": 3,
+    "name": "subbu",
+    "role": {
+        "id": 2,
+        "name": "principal"
+    },
+    "group": {
+        "id": 1,
+        "name": "IT"
+    }
+}
 /app/users/{groupID} [GET call] to get all Users from particular group.
 
 
